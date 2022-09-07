@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/mw/hardware_projects/full-bridge-TLE6209R-arduino-fashion/full-bridge-TLE6209R-arduino-fashion.kicad_sch</source>
+    <date>Tue 26 Apr 2022 23:13:45 CEST</date>
+    <tool>Eeschema 6.0.4-6f826c9f35~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Full Bridge based on TLE6209R</title>
+        <company>Sofjan</company>
+        <rev>V1.0</rev>
+        <date>2022-04-26</date>
+        <source>full-bridge-TLE6209R-arduino-fashion.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100uF/50V</value>
+      <footprint>Smd_Electrolytic:100uF_50V_Size_C_8x10</footprint>
+      <datasheet>https://www.tme.eu/Document/aac1e387ce18b346062dc6a9fcbcf88f/sc.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C311622</field>
+        <field name="Manufacturer">SAMWHA</field>
+        <field name="Manufacturer Part Number">SC1H107M08010VR</field>
+        <field name="Package">Ø8x10mm</field>
+        <field name="Price@1000pcs">0,33020</field>
+        <field name="Price@1pc">0,54126</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SC1H107M08010VR</field>
+        <field name="URL">https://www.tme.eu/pl/details/sc1h107m08010vr/kondensatory-elektrolityczne-smd-85degc/samwha/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd_Electrolytic" part="100uF_50V" description="100uF / 50V Electrolytic ±20% -40...85°C"/>
+      <property name="Manufacturer" value="SAMWHA"/>
+      <property name="Manufacturer Part Number" value="SC1H107M08010VR"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SC1H107M08010VR"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/sc1h107m08010vr/kondensatory-elektrolityczne-smd-85degc/samwha/"/>
+      <property name="Price@1pc" value="0,54126"/>
+      <property name="Price@1000pcs" value="0,33020"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="Ø8x10mm"/>
+      <property name="LCSC Part #(optional)" value="C311622"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d4ddc4b-b6a8-410b-b2dd-1309ae6542b7</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_Smd_0603:100nF_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf</datasheet>
+      <fields>
+        <field name="LCSC Part #(optional)">C191538</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="100n" description="100nF / 50V, X7R, 5%, -55°C to +125°C"/>
+      <property name="Manufacturer" value="SAMSUNG"/>
+      <property name="Manufacturer Part Number" value="CL10B104JB8NNNC"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="CL10B104JB8NNNC"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/"/>
+      <property name="Price@1pc" value="0,04540"/>
+      <property name="Price@1000pcs" value="0,02231"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part #(optional)" value="C191538"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a55038e-1f9d-48ed-b226-9175a694682a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100uF/50V</value>
+      <footprint>Smd_Electrolytic:100uF_50V_Size_C_8x10</footprint>
+      <datasheet>https://www.tme.eu/Document/aac1e387ce18b346062dc6a9fcbcf88f/sc.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C311622</field>
+        <field name="Manufacturer">SAMWHA</field>
+        <field name="Manufacturer Part Number">SC1H107M08010VR</field>
+        <field name="Package">Ø8x10mm</field>
+        <field name="Price@1000pcs">0,33020</field>
+        <field name="Price@1pc">0,54126</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SC1H107M08010VR</field>
+        <field name="URL">https://www.tme.eu/pl/details/sc1h107m08010vr/kondensatory-elektrolityczne-smd-85degc/samwha/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd_Electrolytic" part="100uF_50V" description="100uF / 50V Electrolytic ±20% -40...85°C"/>
+      <property name="Manufacturer" value="SAMWHA"/>
+      <property name="Manufacturer Part Number" value="SC1H107M08010VR"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SC1H107M08010VR"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/sc1h107m08010vr/kondensatory-elektrolityczne-smd-85degc/samwha/"/>
+      <property name="Price@1pc" value="0,54126"/>
+      <property name="Price@1000pcs" value="0,33020"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="Ø8x10mm"/>
+      <property name="LCSC Part #(optional)" value="C311622"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>538bc28e-ca68-45a2-8b41-11795c1c1443</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>33nF/50V</value>
+      <footprint>Capacitors_Smd_0603:33nF_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/667fe6e7748c0ed1675574c6bf64b751/AVX_X7R.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C165071</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer Part Number">06035C333KAT2A</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,05</field>
+        <field name="Price@1pc">0,13</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">06035C333KAT2A</field>
+        <field name="URL">https://www.tme.eu/pl/details/06035c333kat2a/kondensatory-mlcc-smd-0603/avx/</field>
+      </fields>
+      <libsource lib="Capacitors_Smd0603" part="33nF" description="33nF / 50V, X7R, ±10%, -55°C to +125°C"/>
+      <property name="Manufacturer" value="AVX"/>
+      <property name="Manufacturer Part Number" value="06035C333KAT2A"/>
+      <property name="Supplier" value="Tme"/>
+      <property name="Supplier Part Number" value="06035C333KAT2A"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/06035c333kat2a/kondensatory-mlcc-smd-0603/avx/"/>
+      <property name="Price@1pc" value="0,13"/>
+      <property name="Price@1000pcs" value="0,05"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0603"/>
+      <property name="LCSC Part #(optional)" value="C165071"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>92eaf69e-c351-4726-b3d3-cfcc9a833254</tstamps>
+    </comp>
+    <comp ref="CON1">
+      <value>282834-2</value>
+      <footprint>TerminalBlock_P2.54:282834-2</footprint>
+      <datasheet>https://www.tme.eu/Document/b025d814e6e02fd8f5ecd50bdcea5964/ENG_CD_282834_C1.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="Manufacturer">TE</field>
+        <field name="Manufacturer Part Number">282834-2</field>
+        <field name="Package">5.54x6.5x10mm</field>
+        <field name="Price@1000pcs">2,16</field>
+        <field name="Price@1pc">4,69</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">282834-2</field>
+        <field name="URL">https://www.tme.eu/pl/details/282834-2/listwy-zaciskowe-do-druku/te-connectivity/</field>
+      </fields>
+      <libsource lib="Terminal_Blocks" part="282834-2" description="PCB screw terminal block angled 90° 2.54mm 2 ways 10 Ampers"/>
+      <property name="Manufacturer" value="TE"/>
+      <property name="Manufacturer Part Number" value="282834-2"/>
+      <property name="Supplier" value="Tme"/>
+      <property name="Supplier Part Number" value="282834-2"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/282834-2/listwy-zaciskowe-do-druku/te-connectivity/"/>
+      <property name="Price@1pc" value="4,69"/>
+      <property name="Price@1000pcs" value="2,16"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="5.54x6.5x10mm"/>
+      <property name="LCSC Part #(optional)" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6953315-8189-42d1-ad96-7a79b88e4789</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>FYLS-0805URC</value>
+      <footprint>Diodes:FYLS-0805URC</footprint>
+      <datasheet>https://www.tme.eu/Document/5eb6e25b72218ec4ff9ab6f5567f254a/FYLS-0805URC.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C389523</field>
+        <field name="Manufacturer">FORYARD</field>
+        <field name="Manufacturer Part Number">FYLS-0805URC</field>
+        <field name="Package">0805</field>
+        <field name="Price@1000pcs">0,11</field>
+        <field name="Price@1pc">0,26</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">FYLS-0805URC</field>
+        <field name="URL">https://www.tme.eu/pl/en/details/fyls-0805urc/smd-colour-leds/foryard/</field>
+      </fields>
+      <libsource lib="Diodes" part="FYLS-0805URC" description="Led Red diffused 623-633nm 20mA 90mcd 130° -40°C to +85°C"/>
+      <property name="Manufacturer" value="FORYARD"/>
+      <property name="Manufacturer Part Number" value="FYLS-0805URC"/>
+      <property name="Supplier" value="Tme"/>
+      <property name="Supplier Part Number" value="FYLS-0805URC"/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/fyls-0805urc/smd-colour-leds/foryard/"/>
+      <property name="Price@1pc" value="0,26"/>
+      <property name="Price@1000pcs" value="0,11"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0805"/>
+      <property name="LCSC Part #(optional)" value="C389523"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d529560c-b18d-4c05-8164-86a8b56a0bf5</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>FYLS-0805PGC</value>
+      <footprint>Diodes:FYLS-0805PGC</footprint>
+      <datasheet>https://www.tme.eu/Document/95107f7dee964052a5b293776597788f/FYLS-0805PGC.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C84260</field>
+        <field name="Manufacturer">FORYARD</field>
+        <field name="Manufacturer Part Number">FYLS-0805PGC</field>
+        <field name="Package">0805</field>
+        <field name="Price@1000pcs">0,11</field>
+        <field name="Price@1pc">0,26</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">FYLS-0805PGC</field>
+        <field name="URL">https://www.tme.eu/pl/en/details/fyls-0805pgc/smd-colour-leds/foryard/</field>
+      </fields>
+      <libsource lib="Diodes" part="FYLS-0805PGC" description="Led Green diffused 525nm 20mA 360mcd 130° -40°C to +85°C"/>
+      <property name="Manufacturer" value="FORYARD"/>
+      <property name="Manufacturer Part Number" value="FYLS-0805PGC"/>
+      <property name="Supplier" value="Tme"/>
+      <property name="Supplier Part Number" value="FYLS-0805PGC"/>
+      <property name="URL" value="https://www.tme.eu/pl/en/details/fyls-0805pgc/smd-colour-leds/foryard/"/>
+      <property name="Price@1pc" value="0,26"/>
+      <property name="Price@1000pcs" value="0,11"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="0805"/>
+      <property name="LCSC Part #(optional)" value="C84260"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd13c92c-eabd-4418-9cac-2660072ddece</tstamps>
+    </comp>
+    <comp ref="Lg1">
+      <value>KiCad_Logo</value>
+      <footprint>Symbols:KiCad-Logo2_6mm_SilkScreen</footprint>
+      <libsource lib="Symbols" part="KiCad_Logo" description="Kicad Logo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c7de74a-fdb3-49cd-81b0-fb3726f3e037</tstamps>
+    </comp>
+    <comp ref="Lg2">
+      <value>ESD_Logo</value>
+      <footprint>Symbols:ESD-Logo_13.2x12mm_SilkScreen</footprint>
+      <libsource lib="Symbols" part="ESD_Logo" description="ESD Logo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f924b975-2ed7-4b74-bfa0-f1130ff1b130</tstamps>
+    </comp>
+    <comp ref="Lg3">
+      <value>WEEE_Logo</value>
+      <footprint>Symbols:WEEE-Logo_8.4x12mm_SilkScreen</footprint>
+      <libsource lib="Symbols" part="WEEE_Logo" description="ESD Logo"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf817e6d-58a1-41ad-a248-45e7818135e2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>1k</value>
+      <footprint>Resistor_Smd_0603:1k_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/b315665a56acbc42df513c99b390ad98/ROYALOHM-THICKFILM.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF1001T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01269</field>
+        <field name="Price@1pc">0,04693</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-1K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-1k-1%2525/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="1k" description="1kΩ 0,1W ±1% -55...155°C"/>
+      <property name="Manufacturer" value="ROYAL OHM"/>
+      <property name="Manufacturer Part Number" value="0603SAF1001T5E"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SMD0603-1K-1%"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/smd0603-1k-1%2525/rezystory-smd-0603/royal-ohm/0603saf1001t5e/"/>
+      <property name="Price@1pc" value="0,04693"/>
+      <property name="Price@1000pcs" value="0,01269"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c70e9131-d872-475c-8779-cbec80776c00</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_Smd_0603:1k_0603</footprint>
+      <datasheet>https://www.tme.eu/Document/b315665a56acbc42df513c99b390ad98/ROYALOHM-THICKFILM.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF1001T5E</field>
+        <field name="Package">0603</field>
+        <field name="Price@1000pcs">0,01269</field>
+        <field name="Price@1pc">0,04693</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-1K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-1k-1%2525/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+      </fields>
+      <libsource lib="Resistors_Smd0603" part="1k" description="1kΩ 0,1W ±1% -55...155°C"/>
+      <property name="Manufacturer" value="ROYAL OHM"/>
+      <property name="Manufacturer Part Number" value="0603SAF1001T5E"/>
+      <property name="Supplier" value="TME"/>
+      <property name="Supplier Part Number" value="SMD0603-1K-1%"/>
+      <property name="URL" value="https://www.tme.eu/pl/details/smd0603-1k-1%2525/rezystory-smd-0603/royal-ohm/0603saf1001t5e/"/>
+      <property name="Price@1pc" value="0,04693"/>
+      <property name="Price@1000pcs" value="0,01269"/>
+      <property name="Package" value="0603"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0b797aa-c3ef-4619-9dcf-776205c153cb</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TLE6209R</value>
+      <footprint>H_Bridges_Drivers:TLE6209R</footprint>
+      <datasheet>https://www.mouser.pl/datasheet/2/196/Infineon-TLE6209R-DS-v03_02-en-1226672.pdf</datasheet>
+      <fields>
+        <field name="Developer">MW</field>
+        <field name="LCSC Part #(optional)">C106792</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Part Nummber">TLE6209R</field>
+        <field name="Package">PG-DSO-20-37</field>
+        <field name="Price@1000pcs">8,33</field>
+        <field name="Price@1pc">10,68</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">726-TLE6209R</field>
+        <field name="URL">https://www.mouser.pl/ProductDetail/Infineon-Technologies/TLE6209R?qs=3D22qUCSisBhIiety5p7gA%3D%3D</field>
+      </fields>
+      <libsource lib="H_Bridges_Drivers" part="TLE6209R" description="Full Bridge with Mosfet build in and Driver High Voltage, High and Low Side Driver 40V 6A"/>
+      <property name="Manufacturer" value="Infineon Technologies"/>
+      <property name="Manufacturer Part Nummber" value="TLE6209R"/>
+      <property name="Supplier" value="Mouser"/>
+      <property name="Supplier Part Number" value="726-TLE6209R"/>
+      <property name="URL" value="https://www.mouser.pl/ProductDetail/Infineon-Technologies/TLE6209R?qs=3D22qUCSisBhIiety5p7gA%3D%3D"/>
+      <property name="Price@1pc" value="10,68"/>
+      <property name="Price@1000pcs" value="8,33"/>
+      <property name="Developer" value="MW"/>
+      <property name="Package" value="PG-DSO-20-37"/>
+      <property name="LCSC Part #(optional)" value="C106792"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4805e01c-46ae-4f77-9bf3-189a89644642</tstamps>
+    </comp>
+    <comp ref="XA1">
+      <value>Arduino_101_Shield</value>
+      <footprint>Arduino:Arduino_101_Shield</footprint>
+      <libsource lib="arduino" part="Arduino_101_Shield" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="full-bridge-TLE6209R-arduino-fashion.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c34053a0-76e6-467a-8e70-1febc118a511</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Capacitors_Smd0603" part="100n">
+      <description>100nF / 50V, X7R, 5%, -55°C to +125°C</description>
+      <docs>https://www.tme.eu/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf</docs>
+      <footprints>
+        <fp>100nF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100n</field>
+        <field name="Footprint">Capacitors_Smd_0603:100nF_0603</field>
+        <field name="Datasheet">https://www.tme.eu/Document/4a42202b32dab16128fe107dd69598cc/samsung-chip-cap.pdf</field>
+        <field name="Manufacturer">SAMSUNG</field>
+        <field name="Manufacturer Part Number">CL10B104JB8NNNC</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">CL10B104JB8NNNC</field>
+        <field name="URL">https://www.tme.eu/pl/details/cl10b104jb8nnnc/kondensatory-mlcc-smd-0603/samsung/</field>
+        <field name="Price@1pc">0,04540</field>
+        <field name="Price@1000pcs">0,02231</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part #(optional)">C191538</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd0603" part="33nF">
+      <description>33nF / 50V, X7R, ±10%, -55°C to +125°C</description>
+      <docs>https://www.tme.eu/Document/667fe6e7748c0ed1675574c6bf64b751/AVX_X7R.pdf</docs>
+      <footprints>
+        <fp>33nF_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">33nF</field>
+        <field name="Footprint">Capacitors_Smd_0603:33nF_0603</field>
+        <field name="Datasheet">https://www.tme.eu/Document/667fe6e7748c0ed1675574c6bf64b751/AVX_X7R.pdf</field>
+        <field name="Manufacturer">AVX</field>
+        <field name="Manufacturer Part Number">06035C333KAT2A</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">06035C333KAT2A</field>
+        <field name="URL">https://www.tme.eu/pl/details/06035c333kat2a/kondensatory-mlcc-smd-0603/avx/</field>
+        <field name="Price@1pc">0,13</field>
+        <field name="Price@1000pcs">0,05</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0603</field>
+        <field name="LCSC Part #(optional)">C165071</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Capacitors_Smd_Electrolytic" part="100uF_50V">
+      <description>100uF / 50V Electrolytic ±20% -40...85°C</description>
+      <docs>https://www.tme.eu/Document/aac1e387ce18b346062dc6a9fcbcf88f/sc.pdf</docs>
+      <footprints>
+        <fp>100uF_50V_Size_C_8x10</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100uF_50V</field>
+        <field name="Footprint">Smd_Electrolytic:100uF_50V_Size_C_8x10</field>
+        <field name="Datasheet">https://www.tme.eu/Document/aac1e387ce18b346062dc6a9fcbcf88f/sc.pdf</field>
+        <field name="Manufacturer">SAMWHA</field>
+        <field name="Manufacturer Part Number">SC1H107M08010VR</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SC1H107M08010VR</field>
+        <field name="URL">https://www.tme.eu/pl/details/sc1h107m08010vr/kondensatory-elektrolityczne-smd-85degc/samwha/</field>
+        <field name="Price@1pc">0,54126</field>
+        <field name="Price@1000pcs">0,33020</field>
+        <field name="Developer">MW</field>
+        <field name="Package">Ø8x10mm</field>
+        <field name="LCSC Part #(optional)">C311622</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="FYLS-0805PGC">
+      <description>Led Green diffused 525nm 20mA 360mcd 130° -40°C to +85°C</description>
+      <docs>https://www.tme.eu/Document/95107f7dee964052a5b293776597788f/FYLS-0805PGC.pdf</docs>
+      <footprints>
+        <fp>FYLS-0805URC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">FYLS-0805PGC</field>
+        <field name="Footprint">Diodes:FYLS-0805PGC</field>
+        <field name="Datasheet">https://www.tme.eu/Document/95107f7dee964052a5b293776597788f/FYLS-0805PGC.pdf</field>
+        <field name="Manufacturer">FORYARD</field>
+        <field name="Manufacturer Part Number">FYLS-0805PGC</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">FYLS-0805PGC</field>
+        <field name="URL">https://www.tme.eu/pl/en/details/fyls-0805pgc/smd-colour-leds/foryard/</field>
+        <field name="Price@1pc">0,26</field>
+        <field name="Price@1000pcs">0,11</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0805</field>
+        <field name="LCSC Part #(optional)">C84260</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diodes" part="FYLS-0805URC">
+      <description>Led Red diffused 623-633nm 20mA 90mcd 130° -40°C to +85°C</description>
+      <docs>https://www.tme.eu/Document/5eb6e25b72218ec4ff9ab6f5567f254a/FYLS-0805URC.pdf</docs>
+      <footprints>
+        <fp>FYLS-0805URC</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">FYLS-0805URC</field>
+        <field name="Footprint">Diodes:FYLS-0805URC</field>
+        <field name="Datasheet">https://www.tme.eu/Document/5eb6e25b72218ec4ff9ab6f5567f254a/FYLS-0805URC.pdf</field>
+        <field name="Manufacturer">FORYARD</field>
+        <field name="Manufacturer Part Number">FYLS-0805URC</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">FYLS-0805URC</field>
+        <field name="URL">https://www.tme.eu/pl/en/details/fyls-0805urc/smd-colour-leds/foryard/</field>
+        <field name="Price@1pc">0,26</field>
+        <field name="Price@1000pcs">0,11</field>
+        <field name="Developer">MW</field>
+        <field name="Package">0805</field>
+        <field name="LCSC Part #(optional)">C389523</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="H_Bridges_Drivers" part="TLE6209R">
+      <description>Full Bridge with Mosfet build in and Driver High Voltage, High and Low Side Driver 40V 6A</description>
+      <docs>https://www.mouser.pl/datasheet/2/196/Infineon-TLE6209R-DS-v03_02-en-1226672.pdf</docs>
+      <footprints>
+        <fp>TLE6209R</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLE6209R</field>
+        <field name="Footprint">H_Bridges_Drivers:TLE6209R</field>
+        <field name="Datasheet">https://www.mouser.pl/datasheet/2/196/Infineon-TLE6209R-DS-v03_02-en-1226672.pdf</field>
+        <field name="Manufacturer">Infineon Technologies</field>
+        <field name="Manufacturer Part Nummber">TLE6209R</field>
+        <field name="Supplier">Mouser</field>
+        <field name="Supplier Part Number">726-TLE6209R</field>
+        <field name="URL">https://www.mouser.pl/ProductDetail/Infineon-Technologies/TLE6209R?qs=3D22qUCSisBhIiety5p7gA%3D%3D</field>
+        <field name="Price@1pc">10,68</field>
+        <field name="Price@1000pcs">8,33</field>
+        <field name="Developer">MW</field>
+        <field name="Package">PG-DSO-20-37</field>
+        <field name="LCSC Part #(optional)">C106792</field>
+      </fields>
+      <pins>
+        <pin num="0" name="EP" type="passive"/>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="OUT1" type="power_out"/>
+        <pin num="3" name="OUT1" type="passive"/>
+        <pin num="4" name="VS" type="power_in"/>
+        <pin num="5" name="SCLK" type="input"/>
+        <pin num="6" name="SDI" type="input"/>
+        <pin num="7" name="SDO" type="output"/>
+        <pin num="8" name="CSN" type="input"/>
+        <pin num="9" name="INH" type="input"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="DIS" type="input"/>
+        <pin num="13" name="DIR" type="input"/>
+        <pin num="14" name="PWM" type="input"/>
+        <pin num="15" name="VCC" type="power_in"/>
+        <pin num="16" name="DRV" type="input"/>
+        <pin num="17" name="VS" type="power_in"/>
+        <pin num="18" name="OUT2" type="passive"/>
+        <pin num="19" name="OUT2" type="power_out"/>
+        <pin num="20" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Resistors_Smd0603" part="1k">
+      <description>1kΩ 0,1W ±1% -55...155°C</description>
+      <docs>https://www.tme.eu/Document/b315665a56acbc42df513c99b390ad98/ROYALOHM-THICKFILM.pdf</docs>
+      <footprints>
+        <fp>1k_0603</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">Resistor_Smd_0603:1k_0603</field>
+        <field name="Datasheet">https://www.tme.eu/Document/b315665a56acbc42df513c99b390ad98/ROYALOHM-THICKFILM.pdf</field>
+        <field name="Manufacturer">ROYAL OHM</field>
+        <field name="Manufacturer Part Number">0603SAF1001T5E</field>
+        <field name="Supplier">TME</field>
+        <field name="Supplier Part Number">SMD0603-1K-1%</field>
+        <field name="URL">https://www.tme.eu/pl/details/smd0603-1k-1%2525/rezystory-smd-0603/royal-ohm/0603saf1001t5e/</field>
+        <field name="Price@1pc">0,04693</field>
+        <field name="Price@1000pcs">0,01269</field>
+        <field name="Package">0603</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Symbols" part="ESD_Logo">
+      <description>ESD Logo</description>
+      <footprints>
+        <fp>ESD-Logo_13.2x12mm_SilkScreen</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Lg</field>
+        <field name="Value">ESD_Logo</field>
+        <field name="Footprint">Symbols:ESD-Logo_13.2x12mm_SilkScreen</field>
+      </fields>
+    </libpart>
+    <libpart lib="Symbols" part="KiCad_Logo">
+      <description>Kicad Logo</description>
+      <footprints>
+        <fp>KiCad-Logo2_12mm_SilkScreen</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Lg</field>
+        <field name="Value">KiCad_Logo</field>
+      </fields>
+    </libpart>
+    <libpart lib="Symbols" part="WEEE_Logo">
+      <description>ESD Logo</description>
+      <footprints>
+        <fp>WEEE-Logo_8.4x12mm_SilkScreen</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Lg</field>
+        <field name="Value">WEEE_Logo</field>
+        <field name="Footprint">Symbols:WEEE-Logo_8.4x12mm_SilkScreen</field>
+      </fields>
+    </libpart>
+    <libpart lib="Terminal_Blocks" part="282834-2">
+      <description>PCB screw terminal block angled 90° 2.54mm 2 ways 10 Ampers</description>
+      <docs>https://www.tme.eu/Document/b025d814e6e02fd8f5ecd50bdcea5964/ENG_CD_282834_C1.pdf</docs>
+      <footprints>
+        <fp>282834-2</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">CON</field>
+        <field name="Value">282834-2</field>
+        <field name="Footprint">TerminalBlock_P2.54:282834-2</field>
+        <field name="Datasheet">https://www.tme.eu/Document/b025d814e6e02fd8f5ecd50bdcea5964/ENG_CD_282834_C1.pdf</field>
+        <field name="Manufacturer">TE</field>
+        <field name="Manufacturer Part Number">282834-2</field>
+        <field name="Supplier">Tme</field>
+        <field name="Supplier Part Number">282834-2</field>
+        <field name="URL">https://www.tme.eu/pl/details/282834-2/listwy-zaciskowe-do-druku/te-connectivity/</field>
+        <field name="Price@1pc">4,69</field>
+        <field name="Price@1000pcs">2,16</field>
+        <field name="Developer">MW</field>
+        <field name="Package">5.54x6.5x10mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="arduino" part="Arduino_101_Shield">
+      <footprints>
+        <fp>Arduino_101_Shield</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">XA</field>
+        <field name="Value">Arduino_101_Shield</field>
+      </fields>
+      <pins>
+        <pin num="3V3" name="3.3V" type="power_in"/>
+        <pin num="5V1" name="5V" type="power_in"/>
+        <pin num="5V2" name="SPI_5V" type="power_in"/>
+        <pin num="A0" name="A0" type="bidirectional"/>
+        <pin num="A1" name="A1" type="bidirectional"/>
+        <pin num="A2" name="A2" type="bidirectional"/>
+        <pin num="A3" name="A3" type="bidirectional"/>
+        <pin num="A4" name="A4" type="bidirectional"/>
+        <pin num="A5" name="A5" type="bidirectional"/>
+        <pin num="AREF" name="AREF" type="input"/>
+        <pin num="ATN" name="ATN" type="bidirectional"/>
+        <pin num="D0" name="D0_RX0" type="bidirectional"/>
+        <pin num="D1" name="D1_TX0" type="bidirectional"/>
+        <pin num="D2" name="D2" type="bidirectional"/>
+        <pin num="D3" name="D3" type="bidirectional"/>
+        <pin num="D4" name="D4" type="bidirectional"/>
+        <pin num="D5" name="D5" type="bidirectional"/>
+        <pin num="D6" name="D6" type="bidirectional"/>
+        <pin num="D7" name="D7" type="bidirectional"/>
+        <pin num="D8" name="D8" type="bidirectional"/>
+        <pin num="D9" name="D9" type="bidirectional"/>
+        <pin num="D10" name="D10_CS" type="bidirectional"/>
+        <pin num="D11" name="D11" type="bidirectional"/>
+        <pin num="D12" name="D12" type="bidirectional"/>
+        <pin num="D13" name="D13" type="bidirectional"/>
+        <pin num="GND1" name="GND" type="power_in"/>
+        <pin num="GND2" name="GND" type="power_in"/>
+        <pin num="GND3" name="GND" type="power_in"/>
+        <pin num="GND4" name="SPI_GND" type="power_in"/>
+        <pin num="IORF" name="IOREF" type="output"/>
+        <pin num="MISO" name="SPI_MISO" type="input"/>
+        <pin num="MOSI" name="SPI_MOSI" type="output"/>
+        <pin num="RST1" name="RESET" type="input"/>
+        <pin num="RST2" name="SPI_RESET" type="open_collector"/>
+        <pin num="SCK" name="SPI_SCK" type="output"/>
+        <pin num="SCL" name="SCL" type="bidirectional"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VIN" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Capacitors_Smd0603">
+      <uri>/home/mw/kicad_library/Schematic/Capacitors/Smd_0603/Capacitors_Smd0603.kicad_sym</uri>
+    </library>
+    <library logical="Capacitors_Smd_Electrolytic">
+      <uri>/home/mw/kicad_library/Schematic/Capacitors/Smd_Electrolytic/Capacitors_Smd_Electrolytic.kicad_sym</uri>
+    </library>
+    <library logical="Diodes">
+      <uri>/home/mw/kicad_library/Schematic/Diodes/Diodes.kicad_sym</uri>
+    </library>
+    <library logical="H_Bridges_Drivers">
+      <uri>/home/mw/kicad_library/Schematic/H_Bridges_Drivers/H_Bridges_Drivers.kicad_sym</uri>
+    </library>
+    <library logical="Resistors_Smd0603">
+      <uri>/home/mw/kicad_library/Schematic/Resistors/Smd_0603/Resistors_Smd0603.kicad_sym</uri>
+    </library>
+    <library logical="Symbols">
+      <uri>/home/mw/kicad_library/Schematic/Symbols/Symbols.kicad_sym</uri>
+    </library>
+    <library logical="Terminal_Blocks">
+      <uri>/home/mw/kicad_library/Schematic/Connectors/Terminal_Blocks/Terminal_Blocks.kicad_sym</uri>
+    </library>
+    <library logical="arduino">
+      <uri>/home/mw/kicad_library/Schematic/Arduino/arduino.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/DIR">
+      <node ref="U1" pin="13" pinfunction="DIR" pintype="input"/>
+      <node ref="XA1" pin="D13" pinfunction="D13" pintype="bidirectional"/>
+    </net>
+    <net code="2" name="/DIS">
+      <node ref="U1" pin="12" pinfunction="DIS" pintype="input"/>
+      <node ref="XA1" pin="D12" pinfunction="D12" pintype="bidirectional"/>
+    </net>
+    <net code="3" name="/INH">
+      <node ref="U1" pin="9" pinfunction="INH" pintype="input"/>
+      <node ref="XA1" pin="D11" pinfunction="D11" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/PWM">
+      <node ref="U1" pin="14" pinfunction="PWM" pintype="input"/>
+      <node ref="XA1" pin="D5" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/SPI_CSN">
+      <node ref="U1" pin="8" pinfunction="CSN" pintype="input"/>
+      <node ref="XA1" pin="D10" pinfunction="D10_CS" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/SPI_MISO">
+      <node ref="U1" pin="7" pinfunction="SDO" pintype="output"/>
+      <node ref="XA1" pin="MISO" pinfunction="SPI_MISO" pintype="input"/>
+    </net>
+    <net code="7" name="/SPI_MOSI">
+      <node ref="U1" pin="6" pinfunction="SDI" pintype="input"/>
+      <node ref="XA1" pin="MOSI" pinfunction="SPI_MOSI" pintype="output"/>
+    </net>
+    <net code="8" name="/SPI_SCLK">
+      <node ref="U1" pin="5" pinfunction="SCLK" pintype="input"/>
+      <node ref="XA1" pin="SCK" pinfunction="SPI_SCK" pintype="output"/>
+    </net>
+    <net code="9" name="/VIN">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="VS" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="VS" pintype="power_in"/>
+      <node ref="XA1" pin="VIN" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="10" name="5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="VCC" pintype="power_in"/>
+      <node ref="XA1" pin="5V1" pinfunction="5V" pintype="power_in"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="0" pinfunction="EP" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="20" pinfunction="GND" pintype="power_in"/>
+      <node ref="XA1" pin="GND1" pinfunction="GND" pintype="power_in"/>
+      <node ref="XA1" pin="GND2" pinfunction="GND" pintype="power_in"/>
+      <node ref="XA1" pin="GND3" pinfunction="GND" pintype="power_in"/>
+      <node ref="XA1" pin="GND4" pinfunction="SPI_GND" pintype="power_in"/>
+    </net>
+    <net code="12" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="DRV" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(CON1-Pad1)">
+      <node ref="CON1" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="OUT1" pintype="power_out"/>
+      <node ref="U1" pin="3" pinfunction="OUT1" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(D3-Pad1)">
+      <node ref="CON1" pin="2" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="OUT2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="OUT2" pintype="power_out"/>
+    </net>
+    <net code="15" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(XA1-Pad3V3)">
+      <node ref="XA1" pin="3V3" pinfunction="3.3V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(XA1-Pad5V2)">
+      <node ref="XA1" pin="5V2" pinfunction="SPI_5V" pintype="power_in+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(XA1-PadA0)">
+      <node ref="XA1" pin="A0" pinfunction="A0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(XA1-PadA1)">
+      <node ref="XA1" pin="A1" pinfunction="A1" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(XA1-PadA2)">
+      <node ref="XA1" pin="A2" pinfunction="A2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(XA1-PadA3)">
+      <node ref="XA1" pin="A3" pinfunction="A3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(XA1-PadA4)">
+      <node ref="XA1" pin="A4" pinfunction="A4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(XA1-PadA5)">
+      <node ref="XA1" pin="A5" pinfunction="A5" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(XA1-PadAREF)">
+      <node ref="XA1" pin="AREF" pinfunction="AREF" pintype="input+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(XA1-PadATN)">
+      <node ref="XA1" pin="ATN" pinfunction="ATN" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(XA1-PadD0)">
+      <node ref="XA1" pin="D0" pinfunction="D0_RX0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(XA1-PadD1)">
+      <node ref="XA1" pin="D1" pinfunction="D1_TX0" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(XA1-PadD2)">
+      <node ref="XA1" pin="D2" pinfunction="D2" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(XA1-PadD3)">
+      <node ref="XA1" pin="D3" pinfunction="D3" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(XA1-PadD4)">
+      <node ref="XA1" pin="D4" pinfunction="D4" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(XA1-PadD6)">
+      <node ref="XA1" pin="D6" pinfunction="D6" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(XA1-PadD7)">
+      <node ref="XA1" pin="D7" pinfunction="D7" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(XA1-PadD8)">
+      <node ref="XA1" pin="D8" pinfunction="D8" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(XA1-PadD9)">
+      <node ref="XA1" pin="D9" pinfunction="D9" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(XA1-PadIORF)">
+      <node ref="XA1" pin="IORF" pinfunction="IOREF" pintype="output+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(XA1-PadRST1)">
+      <node ref="XA1" pin="RST1" pinfunction="RESET" pintype="input+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(XA1-PadRST2)">
+      <node ref="XA1" pin="RST2" pinfunction="SPI_RESET" pintype="open_collector+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(XA1-PadSCL)">
+      <node ref="XA1" pin="SCL" pinfunction="SCL" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(XA1-PadSDA)">
+      <node ref="XA1" pin="SDA" pinfunction="SDA" pintype="bidirectional+no_connect"/>
+    </net>
+  </nets>
+</export>

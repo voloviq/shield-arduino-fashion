@@ -1,0 +1,50 @@
+11526966814230
+H_Bridges_Drivers
+BTN8982TA_PG-TO263-7
+
+
+0
+8
+8
+H_Bridges_Drivers
+DRV8834_QFN24
+DRV8834_QFN24
+Stepper Motor Driver
+0
+33
+25
+H_Bridges_Drivers
+L6203_Multiwatt11_V
+DMOS FULL BRIDGE DRIVER
+BRIDGE DRIVER
+0
+11
+11
+H_Bridges_Drivers
+MIC4606-2YML-TR_QFN-16
+QFN, 16 Pin (http://www.thatcorp.com/datashts/THAT_1580_Datasheet.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+31
+17
+H_Bridges_Drivers
+NCP5106BMNTWG
+DRV8834_QFN24
+Stepper Motor Driver
+0
+22
+11
+H_Bridges_Drivers
+Pololu_2134
+
+
+0
+16
+16
+H_Bridges_Drivers
+TLE6209R
+DRV8834_QFN24
+Stepper Motor Driver
+0
+35
+21
